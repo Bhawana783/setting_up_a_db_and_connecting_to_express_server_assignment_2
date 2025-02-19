@@ -1,16 +1,18 @@
 {
-  "name": "express-simple-starter",
-  "private": true,
+  "name": "setting_up_a_db_and_connecting_to_express_server_assignment_2",
+  "version": "1.0.0",
+  "description": "As part of the backend development team for a new user management system, you need to implement the functionality that allows storing user data into MongoDB. The backend is already set up, and the task is to:",
+  "main": "schema.js",
   "scripts": {
-    "start": "node index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
     "dotenv": "^16.4.7",
-    "express": "^4.18.2",
-    "mongoose": "^8.8.3"
-  },
-  "devDependencies": {
-    "nodemon": "^3.1.7"
+    "express": "^4.21.2",
+    "mongoose": "^8.10.1"
   }
 }
